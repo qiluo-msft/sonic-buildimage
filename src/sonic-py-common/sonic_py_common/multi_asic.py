@@ -3,9 +3,7 @@ import os
 import subprocess
 
 from natsort import natsorted
-from swsssdk import ConfigDBConnector
-from swsssdk import SonicDBConfig
-from swsssdk import SonicV2Connector
+from swsscommon.swsscommon import ConfigDBConnector, SonicDBConfig, SonicV2Connector
 
 from .device_info import CONTAINER_PLATFORM_PATH
 from .device_info import HOST_DEVICE_PATH
